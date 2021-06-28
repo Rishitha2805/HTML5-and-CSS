@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My favorite food: BANANA ICE CREAM</title>
+
+    <style>
+      #document {
+        background-color: lightgray;
+      }
+
+      .text-content {
+        font-size: 32px;
+        text-align: center;
+      }
+
+      .title {
+        padding-bottom: 30px;
+        text-align: center;
+      }
+
+      #big-title {
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 50px;
+      }
+
+    .center {
+        text-align: center;
+      }
+    .recipe-photo {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+        border-radius: 30px;
+        border: 5px solid white;
+      }
+    .ingredients {
+        list-style: none;
+    }
+    .ingredients li:before {
+        content: "✏️";
+        padding-right: 10px;
+    }
+    .steps {
+        list-style-type: upper-roman;
+    }
+    p > span {
+        font-style: italic;
+    }
+    p > span:last-child {
+        text-decoration: underline;
+    }
+    .span-no-styles {
+        font-style: normal;
+        text-decoration: none;
+    }
+    .list-groups {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+   .list-groups section {
+        margin: 20px;
+        border-radius: 20px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        padding: 20px 5px;
+        color: white;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    #list-ingredients {
+        width: 350px;
+        background-color: #991f0f;
+    }
+    #list-steps {
+        width: 350px;
+        background-color: #123456;
+    }
+    @media only screen and (max-width: 400px) {
+        .list-groups {
+          width: 100%;
+    }
+    .list-groups section {
+        color: black;
+        border-radius: 0;
+        margin: 0;
+        box-shadow: none;
+    }
+    #list-steps, #list-ingredients {
+          background-color: pink;
+    }
+   .recipe-photo {
+          border-radius: 0;
+          max-width: 100%;
+          width: 100%;
+          border: 0;
+    }
+    .another-recipes {
+        display: none;
+    }
+    }
+    @media only screen and (min-width: 401px) and (max-width: 750px) {
+        #document {
+          background-color: white;
+          margin: 0 20px;
+        }
+    }
+    @media only screen and (min-width: 750px) {
+        #document {
+          margin: 0 200px;
+        }
+    }
+    </style>
+  </head>
+  <body id="document">
+    <!-- Name of the dish -->
+    <h1 class="title" id="big-title">BANANA ICE CREAM</h1>
+
+    <!-- Description of the dish -->
+    <p class="text-content">This <span style="span-no-styles">chocolate</span> banana ice cream is not really an ice cream, it’s a faux ice cream. 
+        The consistency is very similar to ice cream but it doesn’t contain dairy or sugar. 
+        When ripe frozen bananas and cocoa powder are combined together in a blender you get a creamy, guilt-free, scrumptious frozen treat. 
+        It’s also gluten-free and vegan. 
+        Seriously… 2 ingredients and a blender, that’s all you need!           
+        <span class="span-no-styles">Chocolate</span> banana ice cream is really quick to make especially if your bananas are already frozen. 
+        I usually keep a container full of bananas in the freezer so I can make an individual serving whenever I want.
+        For a sweeter ice cream, use bananas that are very ripe. If you use unripe bananas, you may need to add honey or sugar.
+        When you put the chopped bananas in the freezer, line the plate or tray with parchment paper. I didn’t and they got stuck on the plate.</p>
+    <div class="list-groups">
+      <section id="list-ingredients">
+        <h2 class="title center">List of ingredients</h2>
+        <!-- List of ingredients -->
+        <ul class="ingredients">
+            <!--Ingredients needed to make the dish-->
+            <li><img src="https://cdn.mos.cms.futurecdn.net/42E9as7NaTaAi4A6JcuFwG-320-80.jpg" width="250"></li>  
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Semi-sweet_chocolate_chips.jpg" width="250"></li>
+            <li><img src="https://m.hindustantimes.com/rf/image_size_960x540/HT/p2/2018/08/05/Pictures/_46261392-9893-11e8-81b1-0a49ed9acdc8.jpg" width="250"></li>
+        </ul>
+    </section>
+    <section id="list-steps">
+        <h2 class="title center">Steps of the recipe</h2>
+
+        <!-- Steps of the recipe -->
+        <ol class="steps">
+          <li>place the sliced bananas in a freezer bag 🥣</li>
+          <li>put the bag in the freezer</li>
+          <li>slice the bananas</li>
+          <li>after 3 hours , take them out of the freezer</li>
+          <li>put the frozen banana sliced in a blender</li>
+          <li>add the yoghurt</li>
+          <li>add the <strong>chocolate chips👨‍🍳</strong></li>
+          <li>blitz it!🥞</li>
+          <p>&#x1F609;&#x1F609;&#x1F609;</p>
+        </ol>
+      </section>
+    </div>
+    <!-- Describe what the dish should look, smell and taste like -->
+    <p class="text-content">
+      These classic, simple, light, soft BANANA ICE CREAM.
+    </p>
+    <!-- An image of the dish -->
+    <p>
+        <img src="https://i.pinimg.com/600x315/2e/c8/e8/2ec8e8563a1b18132e246af099b27e19.jpg"alt = "The Awesome ICE CREAM!!!" class="recipe-photo" />
+    </p>
+    <section class="another-recipes">
+      <h2 class="title">Another favorite recipes</h2>
+      <ul>
+            <!--Chocolate ice cream,strawberry ice cream,vanilla ice cream,Mango icr cream,green tea ice cream-->
+            <li><a href="https://www.vegrecipesofindia.com/chocolate-ice-cream-recipe/">chocolate ice cream</a></li>
+            <li><a href="https://www.allrecipes.com/recipe/140877/easy-eggless-strawberry-ice-cream/">strawberry ice cream</a></li>
+            <li><a href="https://recipes.timesofindia.com/recipes/vanilla-ice-cream/rs54677722.cms">vanilla ice cream</a></li>
+            <li><a href="https://hebbarskitchen.com/homemade-mango-ice-cream-recipe/">Mango icr cream</a></li>
+            <li><a href="https://www.allrecipes.com/recipe/241759/matcha-green-tea-ice-cream/">green tea ice cream</a></li>
+        </ul>
+    </section>
+    <!-- Website that lists out all the various css properties -->
+    <!-- https://www.w3schools.com/cssref/ -->
+</body>
+</html>
